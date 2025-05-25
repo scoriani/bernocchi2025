@@ -11,7 +11,7 @@ az vm open-port --resource-group bernocchi2025 --name bernocchi2025-vm --port 22
 # create a bastion host with a public IP address
 az network public-ip create --resource-group bernocchi2025 --name bernocchi2025-bastion-ip --sku Standard
 az network vnet subnet create --resource-group bernocchi2025 --vnet-name bernocchi2025-vnet --name AzureBastionSubnet --address-prefix 10.0.1.0/24
-az network bastion create --resource-group bernocchi2025 --name bernocchi2025-bastion --vnet-name bernocchi2025-vnet --location northeurope --public-ip-address bernocchi2025-bastion-ip --sku Standard
+az network bastion create --resource-group bernocchi2025 --name bernocchi2025-bastion --vnet-name bernocchi2025-vnet --location northeurope --public-ip-address bernocchi2025-bastion-ip --sku Standard --enable-tunneling true    
 
 
 # open a tunnel to the VM
