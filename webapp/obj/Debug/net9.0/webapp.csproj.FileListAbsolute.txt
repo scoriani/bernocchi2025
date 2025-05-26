@@ -95,3 +95,4 @@
 /Users/scoriani/repos/bernocchi2025/webapp/obj/Debug/net9.0/webapp.pdb
 /Users/scoriani/repos/bernocchi2025/webapp/obj/Debug/net9.0/webapp.genruntimeconfig.cache
 /Users/scoriani/repos/bernocchi2025/webapp/obj/Debug/net9.0/ref/webapp.dll
+/Users/scoriani/repos/bernocchi2025/webapp/obj/Debug/net9.0/webapp.sourcelink.json
